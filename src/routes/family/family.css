@@ -1,0 +1,75 @@
+div {
+    padding: 20px;
+}
+
+p {
+    max-height: 20px;
+}
+
+img {
+    max-width: 100px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.rik {
+  /* width: 1000px;
+  height: 300px; */
+  display: flex;
+  flex-direction: column;
+  background-color: #888;
+}
+
+.pixel {
+  /* width: 200px;
+  height: 200px; */
+  padding: 10px;
+  width: 150px;
+  border: 1px solid #999;
+  background-color: red;
+}
+
+.cheeto {
+  /* width: 200px;
+  height: 200px; */
+  width: 150px;
+  border: 1px solid #999;
+  background-color: green;
+}
+
+.smoky {
+  /* width: 200px;
+  height: 200px; */
+  width: 150px;
+  border: 1px solid #999;
+  background-color: blue;
+}
+
+.parent {
+    /* width: 1200px;
+    height: 400px; */
+    display: flex;
+    flex-direction: column;
+    background-color: #666;
+}
+
+.grand-parent {
+    /* width: 1400px;
+    height: 500px; */
+    display: flex;
+    flex-direction: column;
+    background-color: #444;
+}
+
+.great-grand-parent {
+  /* width: 1600px;
+  height: 600px; */
+  display: flex;
+  flex-direction: column;
+  background-color: #222;
+  color: #FFF;
+}
